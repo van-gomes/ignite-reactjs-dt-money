@@ -1,69 +1,63 @@
-# React + TypeScript + Vite
+# Ignite ReactJS - DT Money
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação desenvolvida durante o curso Ignite da Rocketseat, com foco em **ReactJS** e **boas práticas modernas de desenvolvimento frontend**.  
+O projeto consiste em uma aplicação de controle financeiro que permite registrar transações de entrada e saída, visualizar listagens e consultar o saldo total.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias
 
-## Expanding the ESLint configuration
+- **ReactJS**
+- **Vite** (bundler)
+- **TypeScript**
+- **Styled Components**
+- **Radix UI** (componentes acessíveis)
+- **Axios** (requisições HTTP)
+- **Context API + Hooks**
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Funcionalidades
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- Cadastro de novas transações (entradas e saídas).
+- Listagem de todas as transações cadastradas.
+- Resumo do balanço financeiro (entradas, saídas e total).
+- Consumo de dados via API simulada com **JSON Server**.
+- Estilização com **styled-components**.
+- Componentização e boas práticas de organização de código.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
+
+## Instalação e uso
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/ignite-reactjs-dt-money.git
+cd ignite-reactjs-dt-money
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Instale as dependências:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
 ```
+
+Inicie a aplicação e o servidor fake de API:
+
+```bash
+npm run dev
+npm run dev:server
+```
+
+Abra no navegador:
+
+```
+http://localhost:5173
+```
+
+---
+
+## Licença
+
+Este projeto foi desenvolvido como parte do **Ignite da Rocketseat** e é de uso livre para estudos e melhorias pessoais.
