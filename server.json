@@ -15,6 +15,70 @@
       "category": "Alimentação",
       "price": 50,
       "createdAt": "2022-07-29T19:30:44.505Z"
+    },
+    {
+      "id": 3,
+      "description": "Compra de notebook",
+      "type": "outcome",
+      "category": "Equipamentos",
+      "price": 4500,
+      "createdAt": "2022-08-01T10:15:30.000Z"
+    },
+    {
+      "id": 4,
+      "description": "Consultoria de TI",
+      "type": "income",
+      "category": "Serviços",
+      "price": 3200,
+      "createdAt": "2022-08-02T14:42:10.000Z"
+    },
+    {
+      "id": 5,
+      "description": "Assinatura de software",
+      "type": "outcome",
+      "category": "Serviços",
+      "price": 120,
+      "createdAt": "2022-08-03T08:05:00.000Z"
+    },
+    {
+      "id": 6,
+      "description": "Venda de camiseta",
+      "type": "income",
+      "category": "Venda",
+      "price": 80,
+      "createdAt": "2022-08-04T11:20:15.000Z"
+    },
+    {
+      "id": 7,
+      "description": "Café da manhã",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 18,
+      "createdAt": "2022-08-04T08:45:00.000Z"
+    },
+    {
+      "id": 8,
+      "description": "Freelance - Design de logo",
+      "type": "income",
+      "category": "Serviços",
+      "price": 500,
+      "createdAt": "2022-08-05T16:30:45.000Z"
+    },
+    {
+      "id": 9,
+      "description": "Venda de curso online",
+      "type": "income",
+      "category": "Educação",
+      "price": 750,
+      "createdAt": "2022-08-06T09:10:30.000Z"
+    },
+    {
+      "id": 10,
+      "description": "Conta de energia elétrica",
+      "type": "outcome",
+      "category": "Moradia",
+      "price": 230,
+      "createdAt": "2022-08-06T18:25:00.000Z"
     }
   ]
 }
