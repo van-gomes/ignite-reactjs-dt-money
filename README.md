@@ -58,6 +58,26 @@ http://localhost:5173
 
 ---
 
+## Lint e formatação de código
+
+O projeto utiliza ESLint integrado ao Prettier para garantir padronização do código.
+
+Para verificar problemas de lint:
+
+```bash
+npm run lint
+```
+
+Para corrigir automaticamente problemas de formatação:
+
+```bash
+npm run lint:fix
+```
+
+Observação: a regra @typescript-eslint/no-empty-object-type foi desativada no projeto para manter compatibilidade entre versões do ESLint e TypeScript.
+
+---
+
 ## Licença
 
 Este projeto foi desenvolvido como parte do **Ignite da Rocketseat** e é de uso livre para estudos e melhorias pessoais.
