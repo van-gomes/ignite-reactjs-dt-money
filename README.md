@@ -74,8 +74,6 @@ Para corrigir automaticamente problemas de formatação:
 npm run lint:fix
 ```
 
-Observação: a regra @typescript-eslint/no-empty-object-type foi desativada no projeto para manter compatibilidade entre versões do ESLint e TypeScript.
-
 ---
 
 ## Licença
